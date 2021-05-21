@@ -1,5 +1,10 @@
+# Ignore all data files
 *.dat
+# Except final.dat
 !final.dat
+# Ignore everything in the results folder 
 results/*
+# Except for the data folder
 !results/data/
+#Ignore all data files in the folder gps
 results/data/position/gps/*.dat
